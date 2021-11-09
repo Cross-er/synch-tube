@@ -1,0 +1,6 @@
+-lib youtubeIFramePlayer:git:https://github.com/okawa-h/youtubeIFramePlayer-externs.git
+-cp src
+--main client.Main
+-D analyzer-optimize
+--dce full
+--js res/client.js
